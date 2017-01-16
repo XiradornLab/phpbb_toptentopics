@@ -1,0 +1,17 @@
+// Services vars and initializaion
+$style-color-checker: map-get($config-inc, style-color-checker)
+$primary-color: ""
+
+// Color Vars for this project
+@if ($style-color-checker == "red")
+    $primary-color: #900627
+@else if ($style-color-checker == "orange")
+    $primary-color: #D63226
+@else if ($style-color-checker == "xiradorn")
+    $primary-color: #336
+@else if ($style-color-checker == "image")
+    $primary-color: $bg-image
+@else if ($style-color-checker == "prosilver")
+    $primary-color: #0178B3
+@else
+    $primary-color: #0178B3

@@ -1,8 +1,8 @@
-Top Ten Topics for phpBB 3.1
+Top Ten Topics for phpBB 3.2
 ============
 
-Extensione per phpBB 3.1 per mostrare gi ultimi argomenti, post e gli argomenti più visti in una comoda classifica.  
-Un menu permette poi di fare un filtraggio dei contenuti.  
+Extensione per phpBB 3.2 per mostrare gi ultimi argomenti, post e gli argomenti più visti in una comoda classifica.  
+Un menu permette poi di fare un filtraggio dei contenuti. Per migliorarne lo sviluppo stilistico è stato fatto un porting da normale **CSS** al preprocessore **SASS**.  
 *Questa Estensione è il porting della MOD creata da Micogian*
 
 ![Desktop Version](screen1.jpg)  
@@ -12,9 +12,9 @@ Un menu permette poi di fare un filtraggio dei contenuti.
 `Mobile Version`
 
 ##### Basata sulla mod creata da Micogian per phpBB 3.0.X
-  
+
 ============
-  
+
 ## Caratteristiche
 - Possibilità di scegliere la posizione del box con le seguenti opzioni
   - Prima della lista dei forum e del link "segna come già letti"
@@ -73,7 +73,7 @@ Un menu permette poi di fare un filtraggio dei contenuti.
 ### License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
-© 2015 
+© 2015
 - Brunino - Developer
 - Micogian - Creator and Helper
 - Sir Xiradorn - Designer

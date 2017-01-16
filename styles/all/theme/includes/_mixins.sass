@@ -1,0 +1,7 @@
+// Support placeholders
+=xttt-row_colored($style-color)
+    background:
+        color: $primary-color
+        @if ($style-color == "image")
+            @each $bg-param, $bg-param-value in $bg-image-params
+                #{$bg-param}: #{$bg-param-value}

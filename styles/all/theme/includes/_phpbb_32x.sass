@@ -1,0 +1,30 @@
+@if (map-get($config-inc, phpbb-version) == "3.2")
+    /*! Fix for TTT Estension 3.2 version */
+    #xttt-row_top_ten ul.topiclist dl
+    	width: 100%
+
+    /*! Another add for phpbb 3.2 */
+    .xttt-row_top_ten
+        ul.topiclist
+            li.header
+                dl
+                    dt, dd
+                    	padding:
+                    		top: 0px
+                    		bottom: 0px
+                    	font-size: .82px
+
+@else
+    /*!Not required in version 3.2 */
+    .xttt-row_top_ten
+        ul.topiclist
+            li.row
+                dt, dd
+                    & a.subforum.read
+                        padding: 0 3px 0 20px
+                        position: relative
+                        white-space: normal
+                        background:
+                            repeat: no-repeat
+                            position: 0 50%
+                            image: url("images/subforum_read.gif")

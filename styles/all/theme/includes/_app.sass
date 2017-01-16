@@ -1,0 +1,95 @@
+/*!* Style for Top Ten Topics **/
+/*!* @autor: Sir Xiradorn for Top Ten Topic **/
+
+.xttt-row_colored
+	+xttt-row_colored($style-color-checker)
+
+.xttt-row_top_ten
+	.row
+		font-size: 1em
+
+	.topiclist-footer li
+		text-align: center
+		padding-top: 5px
+
+	a.topictitle.subforum.read
+		max-width: 100%
+		text:
+			overflow: ellipsis
+
+	ul.topiclist
+		li.xcopyright,
+		li.xcopyright:hover
+			text-align: center
+			background: #CADCEB
+			font-weight: bold
+
+		/* Fix for first column text */
+		li dt a
+	    	font-size: 1.1em
+
+		li.row dt a.subforum.read,
+		li.row dd a.subforum.read
+			@media screen and (max-width: 700px)
+				white-space: nowrap
+
+	dt.xttt-one_third,
+	dd.xttt-one_third
+		width: 33% - 0.7%
+		padding: 0.7%
+
+		@media screen and (max-width: 700px)
+			width: 100%
+
+	.header dt.xttt-one_third,
+	.header dd.xttt-one_third
+		padding: 2px 1%
+
+		@media screen and (max-width: 700px)
+			text:
+				align: center
+				transform: uppercase
+			font:
+				weight: bold
+				size: 1.1em
+
+	dt.xttt-one_third
+		margin-right: 0
+
+		.list-inner
+			margin: 0
+
+.xttt-full_third
+	width: 100%
+	padding: 0
+
+.xttt_select
+	color: #336
+	background: #fff
+	width: 33.3333%
+	font-size: 1em
+	text-transform: uppercase
+
+/*! filters */
+.xttt_filters
+	text-align: center
+
+	a, a:link, a:visited
+		display: inline-block
+		padding: 2px 5px
+		background: #0178B3
+		color: #fff
+		border: 1px solid #fff
+			radius: 3px
+
+
+	a:hover
+		background: #D31141
+
+
+/* Only in mobile */
+.xttt-only-mobile
+	display: none !important
+
+	@media screen and (max-width: 700px)
+		display: block !important
