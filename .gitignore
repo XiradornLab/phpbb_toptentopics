@@ -44,3 +44,4 @@ Temporary Items
 
 # Sir Xiradorn - Not required
 *.cfg
+**/prepros*

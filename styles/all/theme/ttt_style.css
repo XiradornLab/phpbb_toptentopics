@@ -1,6 +1,11 @@
 /*!* Style for Top Ten Topics **/
 /*!* @autor: Sir Xiradorn for Top Ten Topic **/
 
+/*! Fix for TTT Estension 3.2 version */
+#xttt-row_top_ten ul.topiclist dl {
+	width: 100%;
+}
+
 .xttt-row_colored {
 	/*background-image: none;*/
 	/*background-color: #900627;*/
@@ -71,6 +76,7 @@
 	font-weight: bold;
 }
 
+/*! Not required in version 3.2 
 .xttt-row_top_ten ul.topiclist li.row dt a.subforum.read,
 .xttt-row_top_ten ul.topiclist li.row dd a.subforum.read {
 	background-image: url('images/subforum_read.gif');
@@ -79,7 +85,7 @@
 	padding: 0 3px 0 20px;
 	position: relative;
 	white-space: normal;
-}
+} */
 
 /* Fix for first column text */
 .xttt-row_top_ten ul.topiclist li dt a {
