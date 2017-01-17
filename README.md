@@ -1,7 +1,7 @@
-Top Ten Topics for phpBB 3.2
+Top Ten Topics for phpBB 3.1
 ============
 
-Extensione per phpBB 3.2 per mostrare gi ultimi argomenti, post e gli argomenti più visti in una comoda classifica.  
+Extensione per phpBB 3.1 per mostrare gi ultimi argomenti, post e gli argomenti più visti in una comoda classifica.  
 Un menu permette poi di fare un filtraggio dei contenuti. Per migliorarne lo sviluppo stilistico è stato fatto un porting da normale **CSS** al preprocessore **SASS**.  
 *Questa Estensione è il porting della MOD creata da Micogian*
 

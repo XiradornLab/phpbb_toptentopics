@@ -118,14 +118,12 @@
   }
 }
 
-/*! Fix for TTT Estension 3.2 version */
-#xttt-row_top_ten ul.topiclist dl {
-  width: 100%;
-}
-
-/*! Another add for phpbb 3.2 */
-.xttt-row_top_ten ul.topiclist li.header dl dt, .xttt-row_top_ten ul.topiclist li.header dl dd {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  font-size: .82px;
+/*!Not required in version 3.2 */
+.xttt-row_top_ten ul.topiclist li.row dt a.subforum.read, .xttt-row_top_ten ul.topiclist li.row dd a.subforum.read {
+  padding: 0 3px 0 20px;
+  position: relative;
+  white-space: normal;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-image: url("images/subforum_read.gif");
 }
